@@ -1,291 +1,197 @@
+!DOCTYPE html>
 
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NISHANT MINES HACK</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto Mono', monospace;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            overflow: hidden;
-            background-color: #000;
-        }
 
-        #particles-js {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: 0;
-        }
+<meta charset="UTF-8">
 
-        h1 {
-            margin-bottom: 20px;
-            position: relative;
-            z-index: 1;
-            color: #00ff00;
-            font-size: 24px;
-        }
+500
 
-        #game-board {
-            display: grid;
-            grid-template-columns: repeat(5, 50px);
-            grid-gap: 10px;
-            margin-bottom: 20px;
-            position: relative;
-            z-index: 1;
-        }
+Q8:
 
-        .cell {
-            width: 50px;
-            height: 50px;
-            background-color: #333;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+<meta name="viewport" content="width=device-width, initial-so
 
-        .safe {
-            background-color: #00ff00 !important;
-            color: black;
-        }
+<title>ASHURA SERVER</title>
 
-        button {
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: #00ff00;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            font-weight: bold;
-            position: relative;
-            z-index: 1;
-        }
+<link href="https://fonts.googleapis.com/css?family=Orbitron:w <link href="https://fonts.googleapis.com/css?family=Roboto:wo
 
-        button:hover {
-            background-color: #00cc00;
-        }
+<style>
 
-        button:active {
-            transform: scale(0.95);
-        }
+body {
 
-        #timer {
-            margin-top: 20px;
-            font-size: 24px;
-            color: #00ff00;
-            display: none;
-        }
+font-family: 'Roboto', sans-serif;
 
-        /* Popup Styles */
-        #key-dialog {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(50, 50, 50, 0.9);
-            padding: 20px; /* Adjusted padding */
-            border-radius: 10px;
-            z-index: 2;
-            display: none;
-            color: #00ff00;
-            text-align: center;
-            width: 250px; /* Adjusted width */
-            height: 150px; /* Adjusted height */
-        }
+background-color: black;
 
-        #key-input {777777
-            width: 100px;
-            font-size: 18px;
-            padding: 5px;
-            margin-top: 10px;
-        }
+color: red; margin: 0; padding: 0; font-size: 1.2em; letter-spacing: 0.5px; overflow: hidden; position: relative;
 
-        #submit-key {
-            margin-top: 10px;
-        }
+text-align: center;
 
-        #key-dialog h2 {
-            font-size: 18px; /* Smaller font size for the header */
-        }
-    </style>
+text-transform: uppercase,
+
+hl {
+
+}
+
+font-family: 'Orbitron', sans-serif;
+
+font-size: 2ent
+
+color: red;
+
+text-shadow: 0 0 8px red;
+
+margin: 10px
+
+#timer, #issueNumber, #predictedNumber (
+
+margin: 15px 0;
+
+color: red;
+
+text-shadow: 0 0 4px red;
+
+font-size: 1.4em;
+
+buttons-container [
+
+}
+
+display: flex; justify-content: center; margin-top: 30px;
+
+.telegram-button { padding: 15px 30px;
+
+}
+
+font-size: 1.2em;
+
+background-color: red;
+
+border: none; color: white cursor: pointer; border-radius: 8px box-shadow: 0 0 10px red;
+
+text-transform: uppercase;
+
+letter-spacing: 0.8px text-decoration: none;
+
+transition: all 0.3s ease-in-out;
+
+.telegram-button:hover (
+
+background-color: #cc0000;
+
+box-shadow: 0 0 15px #cc0000;
+
+.particle-background [
+
+position: absolute;
+
+}
+
+top: 0; left: 0; width: 100%; height: 100%; z-index -1;
+
+pointer-events: none;
+
+.particle {
+
+}
+
+position: absolute; background-color: yellow;
+
+width: 6px height: 6px border-radius: 50%;
+
+animation: particle-animation 5s infinite,
+
+@keyframes particle-animation { 0% [
+
+}
+
+opacity: 1; transform: translateX(0) translateY(0);
+
+50% {
+
+}
+
+opacity: 0.6;
+
+transform: translateX(100px) translateY(100px);
+
+100% [ opacity: 0;
+
+transform: translateX(200px) translateY(200px);
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-    <div id="particles-js"></div>
+<h1>ASHURA SERVER</h1>
 
-    <h1>NISHANT MINES HACK</h1>
-    
-    <!-- Key Entry Dialog -->777777
-    <div id="key-dialog">
-        <h2>Enter 6-Digit Key</h2>
-        <input type="text" id="key-input" maxlength="6" />
-        <button id="submit-key">Submit</button>
-        <div id="key-error" style="color: red; display: none;">Invalid key! Try again.</div>
-    </div>
+<!-- Timer Display --> <div id="timer">00:00</div>
 
-    <!-- Mines Board -->
-    <div id="game-board" style="display: none;"></div>
+<!-- Issue Number Display -->
 
-    <!-- Button to predict safe mines -->
-    <button id="predict-btn" style="display: none;">Show Safe Mines</button>
-    <div id="timer"></div>
+<div id="issueNumber">Period: </div>
 
-    <!-- Include particles.js -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-        // Initialize particles.js for the game screen
-        particlesJS("particles-js", {
-            particles: {
-                number: {
-                    value: 100,
-                    density: {
-                        enable: true,
-                        value_area: 800
-                    }
-                },
-                color: {
-                    value: "#FFFF00"
-                },
-                shape: {
-                    type: "circle",
-                    stroke: {
-                        width: 0,
-                        color: "#000000"
-                    }
-                },
-                opacity: {
-                    value: 0.5,
-                    random: false,
-                },
-                size: {
-                    value: 5,
-                    random: true,
-                },
-                line_linked: {
-                    enable: true,
-                    distance: 150,
-                    color: "#FFFF00",
-                    opacity: 0.4,
-                    width: 1
-                },
-                move: {
-                    enable: true,
-                    speed: 6,
-                    direction: "none",
-                    random: false,
-                    straight: false,
-                    out_mode: "out",
-                    bounce: false,
-                }
-            },
-            interactivity: {
-                detect_on: "canvas",
-                events: {
-                    onhover: {
-                        enable: true,
-                        mode: "repulse"
-                    },
-                    onclick: {
-                        enable: true,
-                        mode: "push"
-                    },
-                    resize: true
-                }
-            },
-            retina_detect: true
-        });
+<!-- Prediction Display -->
 
-        const boardSize = 5; // 5x5 board
-        const totalCells = boardSize * boardSize;
+<div id="predictedNumber">Bet on</div>
 
-        // Create the game board grid
-        const gameBoard = document.getElementById("game-board");
-        for (let i = 0; i < totalCells; i++) {
-            const cell = document.createElement("div");
-            cell.classList.add("cell");
-            gameBoard.appendChild(cell);
-        }
+<!-- Telegram Button Centered -->
 
-        // Function to get exactly three safe mines prediction
-        function getSafeMines() {
-            const safeMines = [];
-            const numSafeMines = 3; // Fixed to show only 4 safe mines
+<div class="buttons-container">
 
-            while (safeMines.length < numSafeMines) {
-                const randomIndex = Math.floor(Math.random() * totalCells);
-                if (!safeMines.includes(randomIndex)) {
-                    safeMines.push(randomIndex);
-                }
-            }
+<a href="https://t.me/GodXAshuraOfficial" class="telegram-bu </div>
 
-            return safeMines;
-        }
+<!-- Particle Effect -->
 
-        // Key validation
-        document.getElementById("submit-key").addEventListener("click", function() {
-            const keyInput = document.getElementById("key-input").value;
-            const validKey = "777777"; // Changed to the new valid key
+<div class="particle-background"></div>
 
-            if (keyInput === validKey) {
-                document.getElementById("key-dialog").style.display = "none";
-                gameBoard.style.display = "grid"; // Show game board
-                document.getElementById("predict-btn").style.display = "inline-block"; // Show button
-            } else {
-                document.getElementById("key-error").style.display = "block"; // Show error message
-            }
-        });
+<script>
 
-        // Show safe mines when button is clicked
-        document.getElementById("predict-btn").addEventListener("click", function() {
-            this.disabled = true;
+// Particle effect generation
 
-            const cells = document.querySelectorAll(".cell");
-            const safeMines = getSafeMines();
+const particleBackground = document.querySelector('.partide const numberOfParticles = 50; // Number of visible particles
 
-            cells.forEach(cell => cell.classList.remove("safe"));
-            safeMines.forEach(index => {
-                cells[index].classList.add("safe");
-            });
+// Function to generate random particles
 
-            startCooldown(10); // 10 seconds cooldown
-        });
+function generateParticles() {
 
-        function startCooldown(duration) {
-            const timerDisplay = document.getElementById("timer");
-            timerDisplay.style.display = "block";
-            timerDisplay.textContent = `Cooldown: ${duration} seconds`;
+for (let i = 0; i < numberOfParticles, i++) {
 
-            let remainingTime = duration;
+let particle = document.createElement('div'); particle.dassList.add('particle');
 
-            const countdown = setInterval(() => {
-                remainingTime--;
-                timerDisplay.textContent = `Cooldown: ${remainingTime} seconds`;
+particle.style.left = $[Math.random()"window.innerWidth
 
-                if (remainingTime <= 0) {
-                    clearInterval(countdown);
-                    timerDisplay.style.display = "none";
-                    document.getElementById("predict-btn").disabled = false;
-                }
-            }, 1000);
-        }
+particle.style.top = $(Math.random()* window.innerHeigh particle.style.animationDuration = $(Math.random()*3+2
 
-        // Show the key dialog on page load
-        window.onload = function() {
-            document.getElementById("key-dialog").style.display = "block";
-        };
-    </script>
-</body>
-</html>
+particle.style.animationDelay = $(Math.random() * 5)s; // Ra particleBackground.appendChild(particle);
+
+}
+
+generateParticles(); // Initial particle generation
+
+// Fetch game issue (mocked example API)
+
+const fetchGamelssue = () => {
+
+retum fetch('https://api.bdg88zf.com/api/webapi/GetGamel: method: 'POST,
+
+))
+
+headers: [
+
+'Content-Type': 'application/json;charset=UTF-8', 'Accept': 'application/json, text/plain, */*
+
+body: JSON.stringify({
+
+typeld: 1,
+
+language: 0,
+
+random: "e7fe6c090da2495ab8290dac55lefled", signature: "IF390E2B2D8A55D693E57FD905AE73A7", timestamp: 1723726679
+
+.then(response => response.json())
