@@ -106,7 +106,7 @@
             height: 150px; /* Adjusted height */
         }
 
-        #key-input {7777777
+        #key-input {777777
             width: 100px;
             font-size: 18px;
             padding: 5px;
@@ -128,7 +128,7 @@
 
     <h1>NISHANT MINES HACK</h1>
     
-    <!-- Key Entry Dialog -->7777777
+    <!-- Key Entry Dialog -->777777
     <div id="key-dialog">
         <h2>Enter 6-Digit Key</h2>
         <input type="text" id="key-input" maxlength="6" />
@@ -222,7 +222,7 @@
         // Function to get exactly three safe mines prediction
         function getSafeMines() {
             const safeMines = [];
-            const numSafeMines = 3; // Fixed to show only 3 safe mines
+            const numSafeMines = 3; // Fixed to show only 4 safe mines
 
             while (safeMines.length < numSafeMines) {
                 const randomIndex = Math.floor(Math.random() * totalCells);
@@ -237,7 +237,7 @@
         // Key validation
         document.getElementById("submit-key").addEventListener("click", function() {
             const keyInput = document.getElementById("key-input").value;
-            const validKey = "7777777"; // Changed to the new valid key
+            const validKey = "777777"; // Changed to the new valid key
 
             if (keyInput === validKey) {
                 document.getElementById("key-dialog").style.display = "none";
